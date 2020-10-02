@@ -29,6 +29,73 @@ const questions = [
         name: "username"
     },
 
+    {
+        type: "checkbox",
+        message: "What do you want to include in your Table of Contents?",
+        name: "contents",
+        choices: [
+            { name: "Badges", checked: true },
+            { name: " Installation", checked: true },
+            { name: " Usage", checked: true },
+            { name: " License", checked: true },
+            { name: " FAQ", checked: true },
+            { name: " Contributing", checked: true },
+        ]
+    },
+
+    {
+        type: "checkbox",
+        message: "What Languages are you using?",
+        name: "badges",
+        choices: [
+            { name: "HTML", checked: true },
+            { name: " CSS", checked: true },
+            { name: " JavaScript", checked: true },
+            { name: " jQuery", checked: true },
+            { name: " Node.js", checked: false },
+            { name: " React.js", checked: false },
+            { name: " Angular.js", checked: false },
+            { name: " Vue.js", checked: false },
+            { name: " Python", checked: false },
+            { name: " Django", checked: false },
+            { name: " Ruby", checked: false },
+            { name: " Rails", checked: false },
+            { name: " Go", checked: false },
+        ]
+    },
+
+    {
+        type: "input",
+        message: "Installation Information",
+        name: "installation"
+    },
+    {
+        type: "input",
+        message: "Explain Application Use",
+        name: "usage"
+    },
+    {
+        type: "list",
+        message: "Select a license",
+        name: "license",
+        choices: [
+            "MIT",
+            "APACHE",
+            "GNU GPLv3",
+            "ISC",
+            "Rust"
+        ]
+    },
+    {
+        type: "input",
+        message: "Add FAQ's",
+        name: "faq"
+    },
+    {
+        type: "input",
+        message: "Please add any contributions to the README.",
+        name: "contributions"
+    }
 ];
 
 // function to write README file
