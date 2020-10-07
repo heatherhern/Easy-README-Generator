@@ -138,6 +138,18 @@ ${questionsData.contributions}
     `;
 };
 
+inquirer.prompt(questions).then(async function(response){
+    const queryUrl = `https://api.github.com/users/${response.username}`;
+    axios.get(queryUrl);
+    var gitHubInfo = await axios(queryUrl);
+    const data = {
+        gitData: gitHubInfo.data,
+        questionsData: response
+    };
+    var markDown = await generateMarkdown(data);
+    writeMarkdown(response.title, markDown);
+});
+
 
 
 
