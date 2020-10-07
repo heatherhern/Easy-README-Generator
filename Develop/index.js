@@ -98,17 +98,62 @@ const questions = [
     }
 ];
 
-// function to write README file
-function writeToFile(fileName, data) {
-}
+function getGitData(data) {
+    const { gitData } = data;
+    const { questionsData } = data;
+    return `
 
-// function to initialize program
-function init() {
+# ${questionsData.title}
 
-}
+## Description
+${questionsData.description}
+    
+## Author(s)
+${questionsData.authors}
 
-// function call to initialize program
-init();
+## Table of Contents
+${questionsData.contents}
+    
+## Badges
+![badge](https://img.shields.io/badge/license-MIT-green)
+${questionsData.badges}
+
+## Installation
+${questionsData.installation}
+    
+## Usage
+${questionsData.usage}
+
+## License
+${questionsData.license}
+
+## FAQ
+${questionsData.faq}
+
+## Contributions
+${questionsData.contributions}
+
+![GitHub Avatar](${gitData.avatar_url})
+    
+    `;
+};
 
 
-// Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+
+
+
+
+// // function to write README file
+// function writeToFile(fileName, data) {
+// }
+
+// // function to initialize program
+// function init() {
+
+// }
+
+// // function call to initialize program
+// init();
+
+
+// // Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
