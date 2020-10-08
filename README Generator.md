@@ -30,4 +30,4 @@ N/A
 ## Contributions
 N/A 
     
-![Showcase Video]("/demo.gif")
+[](demo.gif)
