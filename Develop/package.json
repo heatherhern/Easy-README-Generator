@@ -1,14 +1,29 @@
 {
-  "name": "static-site",
+  "name": "readme-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "\"Generating a ReadMe through Node.JS\"",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heatherhern/README-Generator"
+  },
+  "keywords": [
+    "Read",
+    "Me",
+    "Generation",
+    "Generator"
+  ],
+  "author": "Heather Newlin",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heatherhern/README-Generator"
+  },
+  "homepage": "https://github.com/heatherhern/README-Generator",
   "dependencies": {
-    "inquirer": "^6.3.1"
+    "axios": "^0.19.2",
+    "inquirer": "^7.1.0"
   }
 }

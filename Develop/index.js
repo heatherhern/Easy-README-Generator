@@ -14,19 +14,19 @@ const questions = [
     {
         type: "input",
         message: "README Title",
-        name: "username"
+        name: "title"
     },
 
     {
         type: "input",
         message: "Project Description",
-        name: "username"
+        name: "description"
     },
 
     {
         type: "input",
         message: "Project Authors",
-        name: "username"
+        name: "authors"
     },
 
     {
@@ -46,7 +46,7 @@ const questions = [
     {
         type: "checkbox",
         message: "What Languages are you using?",
-        name: "badges",
+        name: "languages",
         choices: [
             { name: "HTML", checked: true },
             { name: " CSS", checked: true },
@@ -139,14 +139,14 @@ ${questionsData.contributions}
 };
 
 inquirer.prompt(questions).then(async function (response) {
-    const queryUrl = `https://api.github.com/users/${response.username}`;
+    const queryUrl = `https://api.github.com/users/${response.name}`;
     axios.get(queryUrl);
     var gitHubInfo = await axios(queryUrl);
     const data = {
         gitData: gitHubInfo.data,
         questionsData: response
     };
-    var markDown = await generateMarkdown(data);
+    var markDown = await getGitData(data);
     writeMarkdown(response.title, markDown);
 });
 
@@ -159,7 +159,7 @@ function writeMarkdown(fileName, data) {
     });
 };
 
-module.exports = { generateMarkdown };
+module.exports = { getGitData };
 
 
 
