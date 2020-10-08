@@ -28,9 +28,6 @@ MIT
 N/A
 
 ## Contributions
-N/A
-
-![GitHub Avatar](https://avatars3.githubusercontent.com/u/11791361?v=4)
+N/A 
     
-    
-![Showcase GIF] (https://www.loom.com/share/7f7ac4d3c93941e39f7b058568261737)
+![Showcase GIF](https://www.loom.com/share/7f7ac4d3c93941e39f7b058568261737)
