@@ -30,4 +30,4 @@ N/A
 ## Contributions
 N/A 
     
-![Showcase Video]("https://www.loom.com/share/7f7ac4d3c93941e39f7b058568261737")
+![Showcase Video]("/demo.gif")
