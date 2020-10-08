@@ -29,5 +29,4 @@ N/A
 
 ## Contributions
 N/A 
-    
-[]("demo.gif")
+    ![Alt text](/demo.gif?raw=true "Optional Title")
