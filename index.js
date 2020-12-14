@@ -122,7 +122,6 @@ ${questionsData.installation}
 ${questionsData.usage}
 
 ## License
-${questionsData.license}
 ${licenseSection}
 
 ## FAQ
@@ -155,9 +154,6 @@ inquirer.prompt(questions).then(async function (response) {
         gitData: gitHubInfo.data,
         questionsData: response
     };
-    // console.log(data);
-    // console.log(data.questionsData.license);
-    // console.log(data.questionsData.response);
 
     licenseInfo();
 

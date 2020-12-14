@@ -1,12 +1,12 @@
 
 
-# title
+# Amazing README Generator
 
 ## Description
-
+Description Goes Here
 
 ## Author(s)
-
+Authors here
 
 ## Table of Contents
 * [Description](#description)
@@ -21,16 +21,15 @@
 ![Badge](https://img.shields.io/badge/license-MIT-<green>)  
 
 ## Installation
-
+Info Here
 
 ## Usage
-
+App Use Here
 
 ## License
-MIT
 MIT License 
     
-            Copyright(c) 2020 heather
+            Copyright(c) 2020 Heather Hern
     
             Permission is hereby granted, free of charge, to any person obtaining a copy
             of this software and associated documentation files(the "Software"), to deal
@@ -51,13 +50,13 @@ MIT License
             SOFTWARE.
 
 ## FAQ
-
+FAQs Here
 
 ## Contributions
-
+Contribution Info
 
 ## Tests
-
+N/A 
 
 ## Questions
 * Github: [heatherhern](http://github.com/heatherhern)
