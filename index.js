@@ -94,10 +94,10 @@ function getGitData(data) {
 # ${questionsData.title}
 
 ## Description
-    ${questionsData.description}
-    
+${questionsData.description}
+
 ## Author(s)
-    ${questionsData.authors}
+${questionsData.authors}
 
 ## Table of Contents
 * [Description](#description)
@@ -109,11 +109,11 @@ function getGitData(data) {
 * [Contributions](#contributions)
     
 ## Badges
-![Badge]("https://img.shields.io/badge/license-${questionsData.license}-<green>")  
+![Badge](https://img.shields.io/badge/license-${questionsData.license}-<green>)  
 
 ## Installation
 ${questionsData.installation}
-    
+
 ## Usage
 ${questionsData.usage}
 

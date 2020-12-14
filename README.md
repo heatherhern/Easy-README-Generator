@@ -1,12 +1,12 @@
 
 
-# title goes here
+# title
 
 ## Description
-    desc
-    
+desc
+
 ## Author(s)
-    auth
+auth
 
 ## Table of Contents
 * [Description](#description)
@@ -18,11 +18,11 @@
 * [Contributions](#contributions)
     
 ## Badges
-![Badge]("https://img.shields.io/badge/license-MIT-<green>")  
+![Badge](https://img.shields.io/badge/license-MIT-<green>)  
 
 ## Installation
 info
-    
+
 ## Usage
 use
 
@@ -33,7 +33,7 @@ undefined
 faq
 
 ## Contributions
-cont
+no
 
 ![GitHub Avatar](https://avatars0.githubusercontent.com/u/68087628?v=4)
 
