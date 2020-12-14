@@ -1,40 +1,40 @@
 
 
-# Amazing README Generator
+# title here!
 
 ## Description
-    Description goes here
+    descriptionnnnn
     
 ## Author(s)
-    Authors
+    authors
 
 ## Table of Contents
-    * [Description](#description)
-    * [Authors](#author(s))
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [License](#license)
-    * [FAQ](#faq)
-    * [Contributions](#contributions)
+* [Description](#description)
+* [Authors](#author(s))
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [FAQ](#faq)
+* [Contributions](#contributions)
     
 ## Badges
     // undefined
     ![Badge]("https://img.shields.io/badge/license-MIT-<green>")  
 
 ## Installation
-Information here
+information here
     
 ## Usage
-Use described here
+use
 
 ## License
 undefined
 
 ## FAQ
-No
+faq
 
 ## Contributions
-None
+no
 
 ![GitHub Avatar](https://avatars0.githubusercontent.com/u/68087628?v=4)
 
