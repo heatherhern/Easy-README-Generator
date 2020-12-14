@@ -189,7 +189,7 @@ inquirer.prompt(questions).then(async function (response) {
     
 });
 
-function writeMarkdown(data) {
+function writeMarkdown(fileName, data) {
     fs.writeFile(`README.md`, data, function (error) {
         if (error) {
             return console.log(error);
