@@ -9,7 +9,7 @@
     auth
 
 ## Table of Contents
-    * [Description](##description)
+* ![Description](##description)
     * [Authors](##authors)
     * [License](#license)
     * [Contributing](#contributing)
