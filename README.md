@@ -1,12 +1,12 @@
+# Amazing Readme Generator!
 
-
-# Amazing README Generator
+![Video](https://drive.google.com/file/d/1b_13GeWcTCXcbWYETvpKCSQ-qetYAw8f/view?usp=sharing)
 
 ## Description
-Description Goes Here
+This README Generator will automatically create a README for your project by prompting you with questions about your project in the terminal. 
 
 ## Author(s)
-Authors here
+Heather Hern
 
 ## Table of Contents
 * [Description](#description)
@@ -21,10 +21,10 @@ Authors here
 ![Badge](https://img.shields.io/badge/license-MIT-<green>)  
 
 ## Installation
-Info Here
+To install this README Generator, clone the SSH key from this repository into your terminal. 
 
 ## Usage
-App Use Here
+To use this README generator, open the index.js file and run the terminal command "node index.js". Then, follow the prompts to answer questions about your project and fill in your README. 
 
 ## License
 MIT License 
@@ -50,13 +50,13 @@ MIT License
             SOFTWARE.
 
 ## FAQ
-FAQs Here
+N/A
 
 ## Contributions
-Contribution Info
+N/A
 
 ## Tests
-N/A 
+N/A
 
 ## Questions
 * Github: [heatherhern](http://github.com/heatherhern)
