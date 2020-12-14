@@ -100,16 +100,17 @@ function getGitData(data) {
     ${questionsData.authors}
 
 ## Table of Contents
+    * [Description](#description)
+    * [Authors](#author(s))
     * [Installation](#installation)
     * [Usage](#usage)
     * [License](#license)
-    * [Contributing](#contributing)
-    * [Tests](#tests)
-    * [Questions](#questions)
+    * [FAQ](#faq)
+    * [Contributions](#contributions)
     
 ## Badges
-    ${questionsData.badges}
-    ![Badge](https://img.shields.io/badge/license-${questionsData.license}-<green>)  
+    // ${questionsData.badges}
+    ![Badge]("https://img.shields.io/badge/license-${questionsData.license}-<green>")  
 
 ## Installation
 ${questionsData.installation}
