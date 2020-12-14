@@ -134,7 +134,7 @@ ${questionsData.contributions}
 ${questionsData.tests}
 
 ## Questions
-* Github: [${data.questionsData.username}](http://githumb.com/${data.questionsData.username})
+* Github: [${data.questionsData.username}](http://github.com/${data.questionsData.username})
 * Submit Questions to [${data.questionsData.email}](${data.questionsData.email})
 
 ![GitHub Avatar](${gitData.avatar_url})

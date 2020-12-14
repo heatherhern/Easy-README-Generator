@@ -1,12 +1,12 @@
 
 
-# amazing readme generator!
+# Amazing Readme Generator!
 
 ## Description
-project description here
+Description goes here
 
 ## Author(s)
-authors here
+Authors listed here
 
 ## Table of Contents
 * [Description](#description)
@@ -21,10 +21,10 @@ authors here
 ![Badge](https://img.shields.io/badge/license-MIT-<green>)  
 
 ## Installation
-information here
+Information for install here
 
 ## Usage
-app use here
+app use description here
 
 ## License
 undefined
@@ -33,13 +33,13 @@ undefined
 no FAQs to add
 
 ## Contributions
-contributions here
+readme contributors here
 
 ## Tests
-test information here
+no test info available
 
 ## Questions
-* Github: [heatherhern](http://githumb.com/heatherhern)
+* Github: [heatherhern](http://github.com/heatherhern)
 * Submit Questions to [heathernewlin1@gmail.com](heathernewlin1@gmail.com)
 
 ![GitHub Avatar](https://avatars0.githubusercontent.com/u/68087628?v=4)
