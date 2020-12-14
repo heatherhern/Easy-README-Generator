@@ -9,12 +9,12 @@
     auth
 
 ## Table of Contents
-* ![Description](##description)
-    * [Authors](##authors)
-    * [License](#license)
-    * [Contributing](#contributing)
-    * [Tests](#tests)
-    * [Questions](#questions)
+* [Description](##description)
+* [Authors](##author(s))
+* [License](##license)
+<!-- * [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions) -->
     
 ## Badges
     undefined
