@@ -9,9 +9,9 @@
     auth
 
 ## Table of Contents
-* [Description](##description)
-* [Authors](##author(s))
-* [License](##license)
+* [Description](#description)
+* [Authors](#author(s))
+* [License](#license)
 <!-- * [Contributing](#contributing)
 * [Tests](#tests)
 * [Questions](#questions) -->
