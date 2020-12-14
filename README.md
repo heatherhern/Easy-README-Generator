@@ -1,12 +1,12 @@
 
 
-# title
+# amazing readme generator
 
 ## Description
-desc
+description
 
 ## Author(s)
-auth
+authors
 
 ## Table of Contents
 * [Description](#description)
@@ -21,7 +21,7 @@ auth
 ![Badge](https://img.shields.io/badge/license-MIT-<green>)  
 
 ## Installation
-info
+information
 
 ## Usage
 use
@@ -30,10 +30,17 @@ use
 undefined
 
 ## FAQ
-faq
+faq info
 
 ## Contributions
-no
+contributions here
+
+## Tests
+nope
+
+## Questions
+* Github: [heatherhern](http://githumb.com/heatherhern)
+* Submit Questions to [heathernewlin1@gmail.com](heathernewlin1@gmail.com)
 
 ![GitHub Avatar](https://avatars0.githubusercontent.com/u/68087628?v=4)
 

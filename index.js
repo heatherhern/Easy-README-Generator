@@ -45,13 +45,7 @@ const questions = [
             { name: " jQuery", checked: true },
             { name: " Node.js", checked: false },
             { name: " React.js", checked: false },
-            { name: " Angular.js", checked: false },
-            { name: " Vue.js", checked: false },
             { name: " Python", checked: false },
-            { name: " Django", checked: false },
-            { name: " Ruby", checked: false },
-            { name: " Rails", checked: false },
-            { name: " Go", checked: false },
         ]
     },
     {
@@ -83,6 +77,16 @@ const questions = [
         type: "input",
         message: "Please add any contributions to the README.",
         name: "contributions"
+    },
+    {
+        type: "input",
+        message: "Enter any test information available",
+        name: "tests"
+    },
+    {
+        type: "input",
+        message: "What is your email?",
+        name: "email"
     }
 ];
 
@@ -125,6 +129,13 @@ ${questionsData.faq}
 
 ## Contributions
 ${questionsData.contributions}
+
+## Tests
+${questionsData.tests}
+
+## Questions
+* Github: [${data.questionsData.username}](http://githumb.com/${data.questionsData.username})
+* Submit Questions to [${data.questionsData.email}](${data.questionsData.email})
 
 ![GitHub Avatar](${gitData.avatar_url})
 
