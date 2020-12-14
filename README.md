@@ -1,6 +1,6 @@
 # Amazing Readme Generator!
 
-![Video](https://drive.google.com/file/d/1NaTxaIQdiqLyNRckpqF_k5AoVVIUdUM8/view)
+![Video](https://drive.google.com/file/d/1b_13GeWcTCXcbWYETvpKCSQ-qetYAw8f/view?usp=sharing)
 
 ## Description
 This README Generator will automatically create a README for your project by prompting you with questions about your project in the terminal. 
