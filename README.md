@@ -9,8 +9,8 @@
     auth
 
 ## Table of Contents
-    * [Installation](#installation)
-    * [Usage](#usage)
+    * [Description](##description)
+    * [Authors](##authors)
     * [License](#license)
     * [Contributing](#contributing)
     * [Tests](#tests)
