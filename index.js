@@ -109,8 +109,7 @@ function getGitData(data) {
 * [Contributions](#contributions)
     
 ## Badges
-    // ${questionsData.badges}
-    ![Badge]("https://img.shields.io/badge/license-${questionsData.license}-<green>")  
+![Badge]("https://img.shields.io/badge/license-${questionsData.license}-<green>")  
 
 ## Installation
 ${questionsData.installation}
@@ -190,8 +189,8 @@ inquirer.prompt(questions).then(async function (response) {
     
 });
 
-function writeMarkdown(fileName, data) {
-    fs.writeFile(`${fileName}.md`, data, function (error) {
+function writeMarkdown(data) {
+    fs.writeFile(`README.md`, data, function (error) {
         if (error) {
             return console.log(error);
         }
